@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #cae7fa, #91b4f5); /* Degradê de azul para rosa */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Adiciona flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura da página para 100% da altura da viewport */
+}
+
+.container {
+  max-width: 600px;
+  width: 100%; /* Garante que o contêiner ocupe 100% da largura disponível até o máximo */
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1, h2, h4, p {
+  font-weight: bold; /* Aplica o negrito a h1, h2, h4 e p */
+  text-align: center;
+}
+
+.input {
+  width: 100%; /* Alterado para 100% */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0004ff; /* Cor do botão amarela */
+  color: rgb(255, 255, 255); /* Cor do texto do botão */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #aab8ff;
+}
+
+.results {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.results h2 {
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.results p {
+  margin: 5px 0;
+  
+}
+
+.weather-day {
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
